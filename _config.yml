@@ -9,8 +9,7 @@ author: Son Tran
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Author's home: "https://ttsalpha.github.io"
+  Author's home: "https://tranthesons.github.io"
   
 # --- Logo --- #
 
@@ -18,15 +17,12 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/res/ttsalpha.png"
 
-round-avatar: false
-
 # --- Footer social media links --- #
 
 share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-
 
 # Output options (more information on Jekyll's site)
 
@@ -39,10 +35,7 @@ kramdown:
 
 # Exclude these files from production site
 exclude:
-  - CNAME
-  - LICENSE
-  - README.md
-  - docs/
+  - /
 
 plugins:
   - jekyll-paginate
